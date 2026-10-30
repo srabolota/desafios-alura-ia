@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Lista de Tarefas</title>
+  <!-- VINCULANDO O CSS: O arquivo onde definimos as cores, tamanhos e visual -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CONTAINER PRINCIPAL: Centraliza o conteúdo na tela em formato de 'cartão' -->
+  <main class="container">
+    <header class="cabecalho">
+      <h1>📝 Lista de Tarefas</h1>
+      <p>Gerencie suas atividades diárias com facilidade</p>
+    </header>
+
+    <!-- ÁREA DE ENTRADA: Onde o usuário digita o texto e clica no botão -->
+    <section class="formulario">
+      <input 
+        type="text" 
+        id="input-tarefa" 
+        placeholder="O que você precisa fazer hoje?" 
+        autocomplete="off"
+      >
+      <button id="btn-adicionar" class="btn btn-adicionar">Adicionar</button>
+    </section>
+
+    <!-- LISTA DE TAREFAS: As tarefas serão adicionadas aqui dentro pelo JavaScript -->
+    <section class="conteudo-tarefas">
+      <ul id="lista-tarefas" class="lista-tarefas"></ul>
+      <p id="mensagem-vazia" class="mensagem-vazia">Nenhuma tarefa no momento. Que tal adicionar uma acima?</p>
+    </section>
+  </main>
+
+  <!-- VINCULANDO O JAVASCRIPT: O arquivo que adiciona a inteligência e o comportamento -->
+  <script src="script.js"></script>
+</body>
+</html>
