@@ -38,3 +38,5 @@ elif operacao == "/":
 else:
     # Caso o usuário digite um símbolo inválido (ex: %, x, abc)
     print("Operação inválida! Por favor, escolha +, -, * ou /.")
+
+input("Pressione Enter para sair...")
