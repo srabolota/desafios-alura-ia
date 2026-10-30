@@ -1,32 +1,34 @@
 # 🚀 Desafios Imersão IA - Alura
 
-Repositório dedicado às soluções e estudos desenvolvidos durante a Imersão de Inteligência Artificial da Alura.
+Repositório dedicado às soluções, evolução de código e desenvolvimento de aplicações realizados durante a Imersão de Inteligência Artificial da Alura.
 
 ---
 
 ## 📌 Desafio 1: Criando sua primeira aplicação com IA
-
 * **Ferramenta utilizada:** Google AI Studio (Gemini)
 * **Linguagem:** Python
-* **Descrição:** Criação de uma calculadora de terminal funcional realizando as quatro operações básicas (`+`, `-`, `*`, `/`).
+* **Descrição:** Criação de uma calculadora de terminal funcional realizando as quatro operações básicas (`+`, `-`, `*`, `/`) com tratamento de divisão por zero.
 * **Arquivo da solução:** [`desafio-1/calculadora.py`](./desafio-1/calculadora.py)
 
 ---
 
 ## 📌 Desafio 2: Evoluindo sua aplicação com IA
-
 * **Ferramenta utilizada:** Google Antigravity / IA de desenvolvimento
 * **Linguagem:** Python
-* **Descrição:** Análise de código existente, compreensão da estrutura de arquivos e implementação de uma nova funcionalidade de **porcentagem (`%`)** com cálculo automático de acréscimo e desconto.
-
-### 🔍 O que foi implementado no Desafio 2:
-* **Nova Operação (`%`):** Calcula o valor percentual exato (`(num1 * num2) / 100`)[cite: 1].
-* **Acréscimo e Desconto Automáticos:** Além de retornar a fatia da porcentagem, o programa exibe diretamente o valor final somado (`+`) ou subtraído (`-`) do número base[cite: 1].
-* **Preservação de Regras:** Manutenção intacta das quatro operações anteriores, validação contra divisão por zero e pausa no encerramento da janela[cite: 1].
-
+* **Descrição:** Análise de código existente e implementação de uma nova funcionalidade de **porcentagem (`%`)** com cálculo automático de acréscimo e desconto.
 * **Arquivo da solução:** [`desafio-2/calculadora.py`](./desafio-2/calculadora.py)
 
 ---
 
-## 📌 Desafio 3
-*(Em breve)*
+## 📌 Desafio 3: Criando uma Lista de Tarefas (To-Do List)
+* **Ferramenta utilizada:** Google Antigravity
+* **Tecnologias:** HTML5, CSS3, JavaScript (Versão Web) + Python com Tkinter (Versão Desktop)
+* **Descrição:** Desenvolvimento de uma aplicação com interface visual para gerenciar atividades diárias, permitindo **adicionar**, **concluir** (com alteração dinâmica de estilo via classes CSS) e **remover** tarefas, contando com persistência local (`localStorage`).
+
+### 🔍 Destaques do Desafio 3:
+* **Separação de Responsabilidades:** O JavaScript controla o estado dos dados, enquanto o CSS gerencia a aparência visual (como o efeito de texto riscado `line-through` e mudança de cor ao concluir uma tarefa).
+* **Arquivos da solução:** 
+  * [`desafio-3/index.html`](./desafio-3/index.html)
+  * [`desafio-3/style.css`](./desafio-3/style.css)
+  * [`desafio-3/script.js`](./desafio-3/script.js)
+  * [`desafio-3/lista_tarefas_tkinter.py`](./desafio-3/lista_tarefas_tkinter.py)
