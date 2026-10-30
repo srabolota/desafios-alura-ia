@@ -9,27 +9,22 @@ Repositório dedicado às soluções e estudos desenvolvidos durante a Imersão 
 * **Ferramenta utilizada:** Google AI Studio (Gemini)
 * **Linguagem:** Python
 * **Descrição:** Criação de uma calculadora de terminal funcional realizando as quatro operações básicas (`+`, `-`, `*`, `/`).
-
-### 🔍 Respostas e Aprendizados do Desafio 1:
-
-1. **Quais são os principais componentes do código gerado?**
-   * **Variáveis (`num1`, `num2`, `operacao`, `resultado`):** Caixas na memória RAM que guardam os valores e escolhas do usuário.
-   * **`input()`:** Função que interage com o usuário, pausando o terminal para receber o texto digitado via teclado.
-   * **`float()`:** Conversor de tipos que transforma o texto capturado em um número decimal, permitindo cálculos matemáticos exatos.
-   * **Estruturas Condicionais (`if`, `elif`, `else`):** O "cérebro" de decisão que direciona o fluxo do programa.
-
-2. **Como a aplicação recebe os números e identifica a operação?**
-   * Os números usam `float(input(...))` para garantir que entradas como `10` ou `5.5` virem dados numéricos. A operação usa apenas `input(...)` para preservar o caractere especial (`+`, `-`, `*`, `/`) em formato de texto, sendo comparada através do operador de igualdade dupla (`==`).
-
-3. **Como a lógica de programação lida com os resultados e exceções?**
-   * O fluxo opera em cascata (*if/elif/else*), executando apenas o bloco correspondente à escolha correta. Além disso, conta com uma proteção preventiva (`if num2 == 0`) para evitar que o programa sofra um fechamento abrupto (*Crash*) por divisão por zero.
-
-* **Arquivo da solução:** [`desafio-1/calculadora.py](./desafio-1/calculadora.py)
+* **Arquivo da solução:** [`desafio-1/calculadora.py`](./desafio-1/calculadora.py)
 
 ---
 
-## 📌 Desafio 2
-*(Em breve)*
+## 📌 Desafio 2: Evoluindo sua aplicação com IA
+
+* **Ferramenta utilizada:** Google Antigravity / IA de desenvolvimento
+* **Linguagem:** Python
+* **Descrição:** Análise de código existente, compreensão da estrutura de arquivos e implementação de uma nova funcionalidade de **porcentagem (`%`)** com cálculo automático de acréscimo e desconto.
+
+### 🔍 O que foi implementado no Desafio 2:
+* **Nova Operação (`%`):** Calcula o valor percentual exato (`(num1 * num2) / 100`)[cite: 1].
+* **Acréscimo e Desconto Automáticos:** Além de retornar a fatia da porcentagem, o programa exibe diretamente o valor final somado (`+`) ou subtraído (`-`) do número base[cite: 1].
+* **Preservação de Regras:** Manutenção intacta das quatro operações anteriores, validação contra divisão por zero e pausa no encerramento da janela[cite: 1].
+
+* **Arquivo da solução:** [`desafio-2/calculadora.py`](./desafio-2/calculadora.py)
 
 ---
 
